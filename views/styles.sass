@@ -1,0 +1,65 @@
+// reset
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td
+  margin: 0
+  padding: 0
+  border: 0
+  outline: 0
+  vertical-align: baseline
+  background: transparent
+
+// styles
+html
+  min-height: 100%
+body
+  background: #441505 url('/images/et.png') no-repeat bottom right
+  font-family: helvetica, sans-serif
+  font-size: 62.5% // 1em = 10px
+  line-height: 1
+  min-height: 100%
+
+  .wrapper
+    background-color: #f9f5f3
+    -moz-border-radius: 1em
+    -webkit-border-radius: 1em
+    -moz-box-shadow: 0 0.3em 3em rgba(0, 0, 0, 0.7), 0 0 1.5em rgba(0, 0, 0, 0.1) inset
+    -webkit-box-shadow: 0 0.3em 3em rgba(0, 0, 0, 0.7), 0 0 1.5em rgba(0, 0, 0, 0.1) inset
+    margin: 6em auto 0
+    padding: 3em
+    width: 60em
+
+h1
+  font-family: 'helvetica neue ultralight', helvetica
+  margin-bottom: 0.7em
+
+p
+  font-size: 1.3em
+  margin-bottom: 2em
+
+dl
+  display: block
+  dt
+    display: block
+    font-size: 1.3em
+    font-weight: bold
+  dd
+    display: block
+    font-size: 1.3em
+    margin:
+      bottom: 0.3em
+      left: 10em
+      top: -1.3em
+
+a
+  border-bottom: 1px dotted #df501e
+  color: #df501e
+  text-decoration: none
+  &:hover
+    border-bottom-style: solid

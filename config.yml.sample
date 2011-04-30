@@ -1,0 +1,19 @@
+# copy this file to config.yml and substitute in your settings
+development:
+  socrata_auth_token: your_auth_token_here
+  socrata_secret_token: your_secret_token_here
+  socrata_powered_site: https://opendata.socrata.com
+  cookie_secret: random_hash_here
+
+staging:
+  socrata_auth_token: your_auth_token_here
+  socrata_secret_token: your_secret_token_here
+  socrata_powered_site: https://opendata.socrata.com
+  cookie_secret: random_hash_here
+
+production:
+  socrata_auth_token: your_auth_token_here
+  socrata_secret_token: your_secret_token_here
+  socrata_powered_site: https://opendata.socrata.com
+  cookie_secret: random_hash_here
+

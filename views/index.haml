@@ -1,0 +1,31 @@
+!!! 5
+
+%html
+  %head
+    %title Eetee: Socrata OAuth test app
+    %link{ :rel => 'stylesheet', :type => 'text/css', :href => '/styles.css' }
+
+  %body
+    .wrapper
+      %h1 Eetee
+
+      - if @user
+        %p You are logged in as:
+        %dl
+          %dt id
+          %dd= @user['id']
+          %dt username
+          %dd= @user['screenName']
+          %dt email
+          %dd= @user['email']
+
+        %form{ :action => '/update', :method => 'POST' }
+          %input{ :type => 'hidden', :name => 'user_id', :value => @user['id'] }
+          %input{ :type => 'text', :name => 'user_description', :value => @user['description'] }
+          %input{ :type => 'submit' }
+
+      - else
+        %p
+          You are not logged in.
+          %a{ :href => '/auth' } Click here
+          to log in now.
