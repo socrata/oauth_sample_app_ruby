@@ -4,7 +4,7 @@ This application shows how to connect to any Socrata-powered website using the @
 
 Then, either run it locally by doing a @bundle install@ and then @shotgun config.ru@ and visiting @http://localhost:9393@, or push it to "Heroku":http://heroku.com to run it on the web for free.
 
-For more details, please see the "SODA documentation":http://dev.socrata.com/authentication about Authentication. You can post any questions you might have to the "Socrata support website":http://support.socrata.com, where we'd be happy to help you.
+For more details, please see the "SODA documentation":https://dev.socrata.com/docs/authentication about Authentication. You can post any questions you might have to the "Socrata support website":http://support.socrata.com, where we'd be happy to help you.
 
 Happy hacking!
 
