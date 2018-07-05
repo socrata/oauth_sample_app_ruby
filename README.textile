@@ -1,5 +1,7 @@
 h1. Socrata Open Data API OAuth Sample App
 
+h2. NOTE! This repo is severely out-of-date. It was recently changed to float the gem versions in the `Gemfile` to update several gems that had CVEs reported against them. As of July, 2018 the code is untested and it may not work as expected. If you intend to use this sample application and encounter any difficulties, please either file an issue on this repo, or reach out support@socrata.com for assistance.
+
 This application shows how to connect to any Socrata-powered website using the @OAuth2@ Rubygem. To use it, clone it and copy @config.yml.sample@ to @config.yml@, and fill in the details you get when you register for an application on your Socrata account.
 
 Then, either run it locally by doing a @bundle install@ and then @shotgun config.ru@ and visiting @http://localhost:9393@, or push it to "Heroku":http://heroku.com to run it on the web for free.
